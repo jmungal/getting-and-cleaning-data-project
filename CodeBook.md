@@ -22,11 +22,17 @@ This script takes the following actions, as prescribed in the Course Project ins
 ## run_analysis.R Variables
 
 x_test, y_test, x_train, y_train, subject_train and subject_test - These variables are used to store the raw data from the UCI HAR data set.
+
 train_merged - Merged training data.
+
 test_merged - Merged test data.
+
 all_merged - A merging of train_merged and test_merged, by row.
+
 mean_and_std_data - Extracted mean and standard deviation data from all_merged.
+
 with_activity_names_data - mean_and_std_data with descriptive activity names.
+
 tidy_data_set - Used to store the tidy data set, which is then written out to text.
 
 ## tidy_data_set.txt
